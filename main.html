@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Smart Button</title>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <a1> Kendall and Grant's SmartButton<a1>
+</head>
+
+<body>
+	<button id="smartButton">Try it</button>
+	<p id="date"></p>
+  	<script >
+  		document.getElementById("smartButton").addEventListener("click", write);
+
+  		function write(){
+  			document.getElementById("date").innerHTML = Date();
+  		}
+  		
+  	</script>
+</body>
+</html>
